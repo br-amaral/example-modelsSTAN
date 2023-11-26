@@ -16,7 +16,7 @@ stan_data <- read_rdump("site-occ_cov.data.R")
 ## The true number of occupied sites is 73 in this data.
 
 ## Parameters monitored
-params <- c("alpha_occ", "beta_occ", "alpha_p", "beta_p", "occ_fs")
+params <- c("alpha_occ", "beta_occ", "alpha_p", "beta_p", "occ_obs")
 
 ## MCMC settings
 ni <- 2000
